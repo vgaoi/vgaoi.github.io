@@ -1,0 +1,50 @@
+html {
+  background-image: url(treadmill.gif);
+  background-size: cover;
+  background-position: center;
+}
+    .timerDisplay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 270px;
+        width: 270px;
+        border: 2px solid;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:black;
+        font-size:large;
+      
+  }
+
+  .buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: #205e94;
+    color: #ffffff;
+    border: none;
+    font-family: ‘Poppins’,sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.buttons button:nth-last-child(2){
+  background-color: #d23332;
+}
+.buttons button:nth-last-child(1){
+  background-color: #20b380;
+}
+.buttons button:nth-last-child(3){
+  background-color: #800080;
+}
